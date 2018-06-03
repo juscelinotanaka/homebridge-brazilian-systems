@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-brazilian-systems",
+  "version": "0.0.1a",
+  "description": "Homebridge plugin to work with brazilian systems which have different behaviors from international products.",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "gpio",
+    "garagedoor",
+    "alarm",
+    "security",
+    "bulblamp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juscelinotanaka/homebridge-brazilian-systems.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juscelinotanaka/homebridge-brazilian-systems/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "homepage": "https://github.com/juscelinotanaka/homebridge-brazilian-systems#readme",
+  "author": "Juscelino Tanaka",
+  "license": "ISC",
+  "dependencies": {
+    "wiringpi-node": "^2.4.4"
+  }
+}
